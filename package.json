@@ -1,0 +1,33 @@
+{
+  "name": "welovemath",
+  "version": "0.0.1",
+  "description": "we love math",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "lint:js": "eslint js/**/*.js",
+    "lint:js:test": "eslint test/js/**/*.js",
+    "commit": "git-cz"
+  },
+  "author": "Luisa Manitz + Christian Heyn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisamanitz/binomi.js.git"
+  },
+  "keywords": [
+    "math",
+    "practice"
+  ],
+  "devDependencies": {
+    "commitizen": "^2.8.2",
+    "cz-conventional-changelog": "^1.1.6",
+    "eslint": "^3.0.0",
+    "tape": "^4.6.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
